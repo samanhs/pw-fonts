@@ -1,0 +1,110 @@
+/* Iranian Yekan Web Font */
+/* GitHub: https://github.com/samanhs/pw-fonts */
+/* Version: 1.0 */
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebthinfanum.eot');
+  src: url('./eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebthinfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebthinfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebthinfanum.svg#iran_yekan') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanweblightfanum.eot');
+  src: url('./eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanweblightfanum.woff') format('woff'),
+       url('./ttf/iranyekanweblightfanum.ttf') format('truetype'),
+       url('./svg/iranyekanweblightfanum.svg#iran_yekan') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebregularfanum.eot');
+  src: url('./eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebregularfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebregularfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebregularfanum.svg#iran_yekan') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebmediumfanum.eot');
+  src: url('./eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebmediumfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebmediumfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebmediumfanum.svg#iran_yekan') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebboldfanum.eot');
+  src: url('./eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebboldfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebboldfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebboldfanum.svg#iran_yekan') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebextraboldfanum.eot');
+  src: url('./eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebextraboldfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebextraboldfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebextraboldfanum.svg#iran_yekan') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebblackfanum.eot');
+  src: url('./eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebblackfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebblackfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebblackfanum.svg#iran_yekan') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./eot/iranyekanwebextrablackfanum.eot');
+  src: url('./eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),
+       url('./woff/iranyekanwebextrablackfanum.woff') format('woff'),
+       url('./ttf/iranyekanwebextrablackfanum.ttf') format('truetype'),
+       url('./svg/iranyekanwebextrablackfanum.svg#iran_yekan') format('svg');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Utility Classes برای استفاده آسان */
+.iranyekan { font-family: 'IranYekan', Tahoma, sans-serif; }
+.iranyekan-thin { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 100; }
+.iranyekan-light { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 300; }
+.iranyekan-regular { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 400; }
+.iranyekan-medium { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 500; }
+.iranyekan-bold { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 700; }
+.iranyekan-extrabold { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 800; }
+.iranyekan-black { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 900; }
+.iranyekan-extrablack { font-family: 'IranYekan', Tahoma, sans-serif; font-weight: 950; }
