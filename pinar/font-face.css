@@ -1,0 +1,78 @@
+/* Pinar Variable Font - FD */
+/* GitHub: https://github.com/samanhs/pw-fonts */
+/* Version: 1.0 */
+
+@font-face {
+  font-family: 'Pinar';
+  src: url('./woff2/Pinar-FD-VF[wght-KSHD-DSTY].woff2') format('woff2-variations'),
+       url('./woff2/Pinar-FD-VF[wght-KSHD-DSTY].woff2') format('woff2'),
+       url('./ttf/Pinar-FD-VF[wght-KSHD-DSTY].ttf') format('truetype-variations'),
+       url('./ttf/Pinar-FD-VF[wght-KSHD-DSTY].ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  font-named-instance: 'Regular';
+}
+
+/* CSS Classes برای استفاده آسان */
+.pinar { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+
+.pinar-thin { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 100;
+}
+
+.pinar-extralight { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 200;
+}
+
+.pinar-light { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 300;
+}
+
+.pinar-regular { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+
+.pinar-medium { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 500;
+}
+
+.pinar-semibold { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 600;
+}
+
+.pinar-bold { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 700;
+}
+
+.pinar-extrabold { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 800;
+}
+
+.pinar-black { 
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 900;
+}
+
+/* Utility Classes برای کنترل سایر محورهای متغیر */
+.pinar-kshd-0 { font-variation-settings: 'kshd' 0; }
+.pinar-kshd-100 { font-variation-settings: 'kshd' 100; }
+.pinar-dsty-0 { font-variation-settings: 'dsty' 0; }
+.pinar-dsty-100 { font-variation-settings: 'dsty' 100; }
+
+/* ترکیب محورهای مختلف */
+.pinar-custom {
+    font-family: 'Pinar', Tahoma, sans-serif;
+    font-variation-settings: 'wght' 600, 'kshd' 50, 'dsty' 25;
+}
